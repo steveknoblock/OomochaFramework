@@ -1,0 +1,285 @@
+ body {
+  background: white;
+  color: black;
+  font: 12px Arial, sans-serif
+ }
+
+ img {
+    border: 0
+ }
+ 
+   /* generic links */
+    a {
+     font-size: 12px;
+     color: #3366cc
+    }
+    
+    a:visited {
+     font-size: 12px;
+     color: #003366
+    }
+    
+  
+	/* Navigation */
+	#navigation {
+		border: 0;
+		padding-bottom: 0.5em; /* Deleting this prevents floating menu dividers in IE6, but is required to prevent overlap into feature area in FF1.5 Both look okay and are usable. */
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0.5em;
+		text-align: right;
+		background: #1e8536;
+		color: white;
+		height: 32px
+	}
+
+
+	#navigation ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		border-left: 1px solid #004e61;
+		border-right: 1px solid #006486;
+		position: relative;
+		top: 0;
+	}
+    
+	#navigation ul li {
+    	list-style: none;
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	#navigation ul a:link, #navigation ul a:visited {
+		display: block;
+		float: left;
+		padding: 10px 15px;
+		text-decoration: none;
+		border-top: 1px solid #fff;
+		border-right: 1px solid #fff;
+		color: #dee0e5;
+		height: 16px;
+	}
+    
+    #ignored {}
+
+	#navigation ul li a:hover {
+		background: #004e61;
+		color: #fff;
+		text-decoration: underline;
+	}
+
+	#menu-empty {
+		padding-left: 12px
+
+	}
+ 
+ #content {
+  background: white;
+  color: black;
+  border: 1px solid rgb(148,148,140);
+  padding: 1em;
+ }
+
+
+ 	/*
+     * Homepage
+     *
+     */
+
+	.box {
+		background: #fff;
+		color: black;
+		margin-top: 1em;
+		margin-bottom: 2em;
+		margin-left: 0;
+		padding: 1em;
+		border-right: 1px solid green;
+		border-bottom: 1px solid green;
+		font: 12px Arial, sans-serif
+	}
+
+
+	.buttonbox {
+		/* background: #eee url("") bottom repeat-x; */
+		background: #ffffcc;
+		color: black;
+		padding: 1em;
+		margin: 1em;
+		width: 12em;
+        border: 1px solid #1e8536;
+		/*  border-color: rgb(230, 230, 242); */
+		  border-color: rgb(150, 150, 160);
+		text-align: center;
+		font: 11px Arial, sans-serif
+	}
+    
+	/* additional mozilla chrome effects */
+	.buttonbox {
+		-moz-border-radius-topleft: 8px; -moz-border-radius-topright: 8px;
+-moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px;
+	}
+	
+	/*
+	
+	using moz styles
+	.td-top-hilighted-category{
+  background-color: rgb(230, 230, 242); -moz-border-radius-topleft: 8px; -moz-border-radius-topright: 8px;
+  border-color: rgb(230, 230, 242);
+  text-align: left;
+  padding-bottom: 2px;
+  padding-left: 1ex;
+  padding-right: 1ex;
+  padding-top: .5ex;
+}
+*/
+
+    /*
+    old
+ .box {
+ background: #eee;
+ color: black;
+ margin-top: 1em;
+ margin-bottom: 2em;
+ margin-left: 0;
+ padding: 1em;
+ font: 12px Arial, sans-serif
+ }
+ 
+ .box ul li { margin: 0.3em }
+ 
+ .buttonbox {
+ background: #eee;
+ color: black;
+ padding: 1em;
+ margin: 1em;
+ width: 12em;
+ text-align: center;
+ font: 11px Arial, sans-serif
+ }
+ 
+ */
+ 
+                
+   #feature {
+		height: 190px;
+/*		background: #EFF3F7 url("../img/feature-back2.png") bottom repeat-x; */
+		background: #fff;
+        padding: 1em
+	}
+    
+    #feature p {
+		margin: 4px 4px 4px 4px;
+		line-height: 145%;
+		color: black;
+	}
+    
+	#feature img {
+		margin: 4px 4px 4px 0px;
+		border: 1px black solid;
+	}
+	
+	#feature .keypoint {
+		background: #ff7f50;
+		border-color: rgb(230, 230, 242);
+		-moz-border-radius-topleft: 8px;
+		-moz-border-radius-topright: 8px;
+		-moz-border-radius-bottomleft: 8px;
+		-moz-border-radius-bottomright: 8px;
+		padding: 8px;
+		height: 160px;
+		margin: 10px;
+	}
+    
+    #feature blockquote {
+		margin: 0 0 10px 0;
+		line-height: 145%;
+		color: #414D66;
+        font-size: 12px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', sans-serif   ;
+	}
+    
+#feature blockquote:before {
+        content: open-quote;
+    }
+#feature blockquote:after {
+        content: close-quote;
+    }
+    
+    
+    
+    #footer {
+        margin-bottom: 32px
+        }
+    
+    .films {
+        background: #EFF3F7 url("../img/special-back2.png") bottom repeat-x;
+        border: 8px solid #004e61
+    }
+    
+    #listing {
+        background: #fff;
+       
+        padding: 1em
+    }
+    
+ 
+ 	/* FORMS */
+	legend {
+		color: black;
+		font: 12px Arial, sans-serif
+	}
+
+	fieldset {
+		background: #eee;
+		color: black;
+	}
+    
+        
+input.searchbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	text-align : left;
+	padding: 3px;
+	margin: 0px;
+	background-color: #d6f2fc;
+	border: none;
+}
+
+input.searchbutton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	text-align : left;
+	padding: 2px;
+	margin: 4px;
+	background-color: #eee;
+	border: none;
+}
+
+
+/* Default List Style */
+
+li {
+    list-style: square
+}
+
+    /*
+	 * Search Page
+	 *
+	 */
+
+	/* search results list */
+	li {
+		font-size: 12px
+	}
+
+	li a {
+		font-size: 12px;
+		color: #3366cc
+	}
+
+	.more {
+		font-size: 10px;
+	}

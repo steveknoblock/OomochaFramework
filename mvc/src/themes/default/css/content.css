@@ -1,0 +1,158 @@
+ 
+ /* Note: this is mostly used for "leaf", detail or sub page content. */
+ 
+    /**
+	 * Content
+	 *
+	 */
+
+	#content {
+		background: white;
+		color: black;
+		/* border: 1px solid rgb(148,148,140); */
+		padding: 1em;
+		border-left: 1px #1e8536 solid;
+		border-right: 1px #1e8536 solid;
+		border-bottom: 1px #1e8536 solid
+	}
+
+	/* Details layout */
+	#detail-left-col {
+		padding-left: 0;
+		padding-right: 1em;
+		border-right: 1px dashed #ccc;
+	}
+
+	#detail-right-col {
+		padding-left: 1em;
+		padding-right: 1em;
+		margin: 1em;
+	}
+
+	#video {
+		width: auto;
+		padding: 1em;
+		background: #eee;
+		color: black;
+		/* border: 1px dashed #ccc */
+	}
+
+	/* Details content */
+	#description {
+		margin: 0;
+		padding: 0;
+		border: none
+	}
+
+
+	#author {
+		margin-top: 6px;
+        margin-bottom: 8px
+        	}
+
+            /*
+            Deprecated - 
+            durations now appear
+            next to streams
+	#duration {
+		margin: auto
+	}
+*/
+	#gauge {
+		margin-top: 6px;
+        margin-bottom: 8px
+	}
+
+	#cc {
+		margin: auto
+	}
+
+	#chapters {
+		font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+		padding: 10px;
+	}
+    
+    #related {
+     padding: 10px;
+     margin-top: 6px;
+     margin-bottom: 8px
+	}
+    
+    	/* Key Point */
+
+	.key-point:before {
+		line-height: 0.1;
+		font-size: 1px;
+		background: transparent url("../img/top.png") no-repeat top right;
+		margin: 0;
+		height: 9px;
+		display: block;
+		border-bottom: 1px solid #ddd;
+		content: url("clear.png");
+	}
+	.key-point {
+		background: #E0E9E9;
+	}
+	.key-point:after {
+		display: block;
+		padding-top: 0;
+		line-height: 0.1;
+		font-size: 1px;
+		content: url("clear.png");
+		margin: 0 0 0 0;
+		height: 12px;
+		background: transparent url("../img/bot.png") scroll no-repeat bottom right ;
+	}
+	.key-point ul {
+		list-style: square
+	}
+	.key-point li a {
+		display: block;
+		padding: 6px 10px;
+		text-decoration: none;
+		background: #EDF2F2;
+		border-bottom: 1px solid #ddd;
+		border-top: 1px solid #fff;
+		border-right: 1px solid #ddd;
+	}
+    
+   	/* Second Point
+       (secondary importance)
+    
+    background may be #EDF2F2 or #E0E9E9 or #eee
+    
+    margin-top is used instead of before or after for vertical spacing
+     */
+
+	.second-point {
+        margin-top: 1em;
+		background: #EEE;
+	}
+	
+	.second-point ul {
+		list-style: square
+	}
+	.second-point li a {
+		display: block;
+		padding: 6px 10px;
+		text-decoration: none;
+		background: #EDF2F2;
+		border-bottom: 1px solid #ddd;
+		border-top: 1px solid #fff;
+		border-right: 1px solid #ddd;
+	}
+    
+   /* Styles for body text, such as the
+	* description and tutorial text. These
+	* are expected to be in the content but
+	* vary with each item. This is the text
+    * coming from the text fields.
+	*/
+
+	/* Media Objects */
+
+	div.media {
+		text-align: center
+	}
