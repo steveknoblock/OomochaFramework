@@ -1,5 +1,6 @@
 <?php
 
+
 /**********************************************************************
  *                          SweetPear Framework
  *                       Copyright 2006 Steve Knoblock
@@ -61,7 +62,7 @@ require_once LIBRARY_PATH . '/lib/ooform-class3.php'; // Forms
 require_once 'DB.php'; // Database
 require_once "Auth.php"; // Authentication
 
-$error_level = 0;
+//$error_level = 0;
 
 /**
  * Front Controller
@@ -204,9 +205,9 @@ $c->plugins[form] = new ooForm;
 log_err( __FILE__, __LINE__, "Adding Actions");
 
 // Debugging
-//$tmp = '<pre>$c->actions' . "\n";
-//$tmp = print_r( $c->actions );
-//$tmp = "</pre>";
+$tmp = '<pre>$c->actions' . "\n";
+$tmp = print_r( $c->actions );
+$tmp = "</pre>";
 //log_err( __FILE__, __LINE__, $tmp);
 
 

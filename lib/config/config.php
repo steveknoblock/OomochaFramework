@@ -53,9 +53,9 @@ $params = array(
 	/**
 	 * Paths
 	 */
-	define(LIBRARY_PATH, '/usr/home/cityg/public_html/phphelp.com/test/projects/sandbox/mvc');
-	define(INSTALL_PATH, '/usr/home/cityg/public_html/phphelp.com/test/projects/sandbox/mvc');
-	define(MODULE_PATH, '/usr/home/cityg/public_html/phphelp.com/test/projects/sandbox/mvc');
+	define('LIBRARY_PATH', '');
+	define('INSTALL_PATH', '');
+	define('MODULE_PATH', '');
 
 	 /**
 	  * Form handler
