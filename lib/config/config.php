@@ -25,11 +25,11 @@
 	  *
 	  */
 $dsn = array(
-    'phptype'  => 'mysql',
-    'username' => 'cityg_8',
-    'password' => 'gBhpj4Xj',
-    'hostspec' => 'db72c.pair.com',
-    'database' => 'cityg_dev'
+    'phptype'  => '',
+    'username' => '',
+    'password' => '',
+    'hostspec' => '',
+    'database' => ''
 );
 
 	/*
